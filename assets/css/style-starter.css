@@ -6428,11 +6428,14 @@ div.ppt {
 }
 
 .w3l-download-main .download-content {
-  background: url(../images/banner3.jpg) top;
-  background-size: cover;
+  background: url(../images/banner3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-attachment: fixed;
+  background-color: #30364b;
   position: relative;
-  min-height: 30em;
+  height: 20em;
 }
 
 .w3l-download-main .layer-2 {
@@ -6453,7 +6456,7 @@ div.ppt {
 
   .w3l-download-main .download-content,
   .w3l-download-main .layer-2 {
-    min-height: 28em;
+    height: 20rem;
   }
 }
 
@@ -6465,7 +6468,7 @@ div.ppt {
 
   .w3l-download-main .download-content,
   .w3l-download-main .layer-2 {
-    min-height: 20em;
+    height: 20rem;
   }
 }
 
@@ -6473,7 +6476,7 @@ div.ppt {
 
   .w3l-download-main .download-content,
   .w3l-download-main .layer-2 {
-    min-height: 20em;
+    height: 20rem;
   }
 }
 
